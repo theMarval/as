@@ -15,11 +15,17 @@ function englishToDevanagari(number) {
 }
 
 //audio autoplay
-window.onload = function() {
-    let audio = new Audio('Gulabi Sadi Ani Lali Lal Lal.mp3')
-    audio.volume = 0.8;
-    audio.play();
+// window.onload = function() {
+//     let audio = new Audio('Gulabi Sadi Ani Lali Lal Lal.mp3')
+//     audio.volume = 0.8;
+//     audio.play();
     
+  // }
+audio autoplay
+window.onload = function() {
+    let audio = new Audio('./GULABI SADI.mp3')
+    // audio.volume = 0.8;
+    audio.play();
   }
 
 function clearCache() {
