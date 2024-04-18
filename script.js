@@ -21,12 +21,11 @@ function englishToDevanagari(number) {
 //     audio.play();
     
   // }
-audio autoplay
-window.onload = function() {
-    let audio = new Audio('./GULABI SADI.mp3')
-    // audio.volume = 0.8;
-    audio.play();
-  }
+window.addEventListener('click',()=>{
+  let audio = new Audio('./GULABI SADI.mp3')
+  audio.play();
+  audio.loop()
+})
 
 function clearCache() {
     // Clear the cache
